@@ -22,12 +22,12 @@ class MyDrawer extends StatelessWidget {
             color: Colors.blue[100],
           ),
           child: Image.asset(
-            'assets/images/omar.jpg',
+            "assets/images/mohamedYasser.jpg",
             fit: BoxFit.cover,
           ),
         ),
         Text(
-          'Omar Ahmed',
+          'Mohamed Yasser',
           style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
         ),
         const SizedBox(
@@ -94,21 +94,21 @@ class MyDrawer extends StatelessWidget {
         children: [
           buildIcon(
             FontAwesomeIcons.facebook,
-            'https://www.facebook.com/groups/omarahmedx14',
+            'https://web.facebook.com/mohamed.shehap.731/',
           ),
           const SizedBox(
             width: 15,
           ),
           buildIcon(
-            FontAwesomeIcons.youtube,
-            'https://www.youtube.com/c/OmarAhmedx14/videos',
+            FontAwesomeIcons.linkedin,
+            'https://www.linkedin.com/in/muhammed-yasser-a6a9b411b',
           ),
           const SizedBox(
             width: 20,
           ),
           buildIcon(
-            FontAwesomeIcons.telegram,
-            'https://t.me/OmarX14',
+            FontAwesomeIcons.github,
+            'https://github.com/momoshehap',
           ),
         ],
       ),
